@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 body {
   background-color: black;
   background-image: url("https://cdn.shopify.com/s/files/1/0609/4297/5168/files/VhsBg_Optimized.gif?v=1644853297");
@@ -18,24 +24,48 @@ body {
 
 .main_pic {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20%;
+  max-width: 100%;
   margin-top: 20px;
 }
 
 .butt {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 40%;
-  margin-bottom: 200px;
+  margin-bottom: 10%;
   border-style: solid;
   border-width: 2px;
   border-color: red;
   width: 300px;
   max-width: 20%;
   height: 120px;
-  font-size: larger;
+  font-size: 30px;
   color: red;
   background-image: linear-gradient(-75deg, #5200de, #000386);
+}
+
+@media only screen and (min-width: 250px) and (max-width: 767px){
+  .main_pic{
+    max-width: 80%;
+  }
+  .butt{
+    max-width: 60%;
+    height: 80px;
+    margin-bottom: 30%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1223px){
+  .main_pic{
+    max-width: 80%;
+  }
+  .butt{
+    max-width: 60%;
+    height: 80px;
+    margin-bottom: 30%;
+  }
+}
+@media only screen  and (min-width: 1224px)and (max-width: 1823px){
+
+}
+@media only screen  and (min-width: 1824px){
+
 }
