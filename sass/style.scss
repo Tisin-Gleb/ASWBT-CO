@@ -1,0 +1,44 @@
+@import "mixins";
+
+$bgColor: black;
+$color: red;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $bgColor;
+  background-image: url("https://cdn.shopify.com/s/files/1/0609/4297/5168/files/VhsBg_Optimized.gif?v=1644853297");
+  background-size: 1920px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.block {
+  background-color: aqua;
+}
+
+.main_pic {
+  @include main_pic;
+  margin-top: 20px
+}
+
+.butt{
+  position:absolute;
+  bottom:0;
+  left: 40%;
+  margin-bottom: 200px;
+  @include border;
+  width: 300px;
+  max-width: 20%;
+  height: 120px;
+  font-size: larger;
+  color: $color;
+  background-image: linear-gradient(-75deg, #5200de, #000386);
+}
+
+.font {
+}
