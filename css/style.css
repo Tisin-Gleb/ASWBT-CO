@@ -63,9 +63,23 @@ body {
     margin-bottom: 30%;
   }
 }
-@media only screen  and (min-width: 1224px)and (max-width: 1823px){
-
+@media only screen  and (min-width: 1224px) and (max-width: 1823px){
+  .main_pic{
+    max-width: 100%;
+  }
+  .butt{
+    max-width: 80%;
+    height: 100px;
+    margin-bottom: 20%;
+  }
 }
-@media only screen  and (min-width: 1824px){
-
+@media only screen  and (min-width: 800px) and (max-width: 1823px) and (min-height: 500px) and (max-height: 1000px){
+  .main_pic{
+    max-width: 100%;
+  }
+  .butt{
+    max-width: 80%;
+    height: 100px;
+    margin-bottom: 7%;
+  }
 }
