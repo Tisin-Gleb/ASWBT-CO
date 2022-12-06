@@ -16,13 +16,14 @@ body{
     display: flex;
     padding: 0;
     width: 100%;
-    height: 3em;
+    height: 50px;
     background-color: tan;
 }
 
 .logo{
+    background-image: url("../src/Logo100x50.png");
     background-color: #000386;
-    width: 150px;
+    width: 100px;
     height: 100%;
 }
 
@@ -34,4 +35,11 @@ body{
 .banner{
     flex-grow: 1;
     background-color: black;
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        background-image: url("../src/Logo_Clown_50x50.png");
+        width: 50px;
+    }
 }
