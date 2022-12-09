@@ -13,6 +13,17 @@ body{
     height: 100%;
 }
 
+.container-main{
+    position: relative;
+    display: grid;
+    background-color: #5bc7f6;
+    opacity: 0.8;
+    margin: 40px auto;
+    width: 60vw;
+    max-width: 100%;
+    min-height: 10vh;
+}
+
 .top-line{
     display: flex;
     z-index: 100;
@@ -127,6 +138,16 @@ label {
     opacity: 0.8;
 }
 
+.blockquote{
+    overflow: hidden;
+    font-family: minecraft, serif;
+    font-size: 34px;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 500px){
     .logo{
         background-image: url("../src/Jokerge.png");
@@ -135,4 +156,11 @@ label {
     .menu{
         width: 100%;
     }
+}
+
+@font-face{
+    font-family: "minecraft";
+    src: url("../src/minecraft.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
