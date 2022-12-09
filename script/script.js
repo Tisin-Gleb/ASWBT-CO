@@ -1,11 +1,7 @@
-function animate(){
-
+function hide(a){
+    a.style.display = 'none'
 }
 
-function wierdButMouseOn(id){
-    document.getElementById(id).style.backgroundImage = 'linear-gradient(30deg, #022a00, #4e7a02)';
-}
-
-function wierdButMouseOff(id){
-    document.getElementById(id).style.backgroundImage = 'linear-gradient(-75deg, #5200de, #000386)';
+function show(a){
+    a.style.visibility = 'visible';
 }
