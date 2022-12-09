@@ -41,9 +41,13 @@ div.gosling_text{
     font-size: 22px;
 }
 
-div.gosling_review{
+div.gosling_pig{
     color: #EC36F3FF;
     background-color: black;
+}
+
+p.gosling_review{
+    color: #EC36F3FF;
 }
 
 div.pig_and_text{
@@ -68,6 +72,9 @@ div.pig_and_text{
 }
 
 .hammers{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr);
 
 }
 
