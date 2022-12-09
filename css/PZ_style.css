@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../src/PZ.jpg ");
+    margin: 0;
+    overflow-y:visible;
+    overflow-x:visible;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 1125px;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgb(185, 135, 85);
+    padding: 15px 10px 0 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, 45%);
+    grid-auto-columns: minmax(400px, 45%);
+    justify-items: stretch;
+    align-items: stretch;
+    place-items: center;
+
+    border-width: 3px;
+    border-color: darkcyan;
+    border-style: solid;
+}
+
+p, h2{
+    color: white;
+}
+
+.Spiffo{
+    display: block;
+    max-width: 90%;
+    max-height: 100%;
+    border-width: 3px;
+    border-color: darkcyan;
+    border-style: solid;
+}
+
+.PZ_text{
+    background-color: #c57959;
+    border-width: 3px;
+    border-color: darkcyan;
+    border-style: solid;
+}
+
+@media screen and (max-width: 930px) and (min-width: 400px){
+    .Spiffo{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 931px){
+    .Spiffo{
+        max-width: 80%;
+    }
+}

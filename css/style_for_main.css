@@ -11,8 +11,6 @@ body{
     /*background: url("https://steamuserimages-a.akamaihd.net/ugc/930428699254564693/FFA99C866B4EA6BC93D1B9664083DEB6BA1E3386/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true");*/
     width: 100%;
     height: 100%;
-    overflow-y:hidden;
-    overflow-x:hidden;
 }
 
 .top-line{
