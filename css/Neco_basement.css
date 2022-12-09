@@ -5,7 +5,6 @@ body{
     overflow-x:visible;
 }
 
-
 div.main_page{
     position: relative;
     max-width: 100%;
@@ -18,8 +17,6 @@ div.main_page{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
-    grid-auto-rows: minmax(50px, 45%);
-    grid-auto-columns: minmax(400px, 45%);
     justify-items: stretch;
     align-items: stretch;
 
@@ -31,7 +28,6 @@ div.main_page{
 
 div.neco_text{
     align-self: start;
-    /*grid-column: 1/2;*/
     line-height: 23px;
     padding: 5px;
     font-size: 20px;
